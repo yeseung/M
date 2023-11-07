@@ -12,7 +12,7 @@ if(!sql_query(" DESC bin_messenger ", false)) {
     sql_query(" CREATE TABLE IF NOT EXISTS `bin_messenger` (
                     `mg_idx` INT(11) NOT NULL AUTO_INCREMENT,
                     `mg_datetime` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
-                    `mg_content` VARCHAR(255) NOT NULL DEFAULT '',
+                    `mg_content` text NOT NULL,
                   PRIMARY KEY (`mg_idx`)
                 ) ENGINE=MyISAM DEFAULT CHARSET=utf8; ", false);
 }
