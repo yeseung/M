@@ -18,7 +18,7 @@ if(!sql_query(" DESC bin_messenger ", false)) {
 }
 
 
-sql_query(" insert into `bin_messenger` set mg_content = '222' ");
+//sql_query(" insert into `bin_messenger` set mg_content = '222' ");
 
 
 ?><!doctype html>
